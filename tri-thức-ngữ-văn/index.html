@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798820819957">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798821892015">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -27,11 +27,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.7.0.798820819957" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.7.0.798821892015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798820819957" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798821892015" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798820819957" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798821892015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -168,63 +168,46 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Toggle Nội dung</title>
-  <style>
-    .toggle-container {
-      margin: 20px;
-      font-family: Arial, sans-serif;
-    }
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">.toggle-button {
-  cursor: pointer;
-  font-weight: bold;
-  color: #2a6de6;
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.toggle-button:hover {
-  background-color: #dbe5ff;
-}
-
-.toggle-content {
-  display: none;
-  margin-top: 10px;
-  padding: 10px;
-  border-left: 3px solid #2a6de6;
-  background-color: #f9f9f9;
-  border-radius: 6px;
-}</code></pre>
-</doc-codeblock></div>
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách có thể đóng mở</title>
+    <style>
+        details {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="toggle-container">
-    <div class="toggle-button" onclick="toggleContent()">▶ Chỉ ra và nêu tác dụng của yếu tố phi ngôn ngữ</div>
-    <div class="toggle-content" id="content">
-      <p>- Yếu tố phi ngôn ngữ trong văn bản là: <strong>(hình ảnh, số liệu, câu in đậm)</strong>.</p>
-      <p>- Tác dụng:</p>
-      <ul>
-        <li>Tăng sự thêm sinh động, hấp dẫn, sáng tỏ “thông tin”, giúp người đọc nắm bắt nhanh hơn.</li>
-        <li>Trực quan hóa, cụ thể hóa các thông tin quan trọng.</li>
-      </ul>
-    </div>
-  </div>
-  <script>
-    function toggleContent() {
-      const content = document.getElementById("content");
-      const button = document.querySelector(".toggle-button");
-      const isVisible = content.style.display === "block";
+    <h1>Chỉ ra thể thơ và dấu hiệu nhận biết của nó</h1>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">&lt;details&gt;
+    &lt;summary&gt;Chú ý&lt;/summary&gt;
+    &lt;p&gt;Đếm hết cả bài, tránh trường hợp cả bài 8 chữ mà câu cuối 9 chữ lại lười không đếm.&lt;/p&gt;
+&lt;/details&gt;
 
-      content.style.display = isVisible ? "none" : "block";
-      button.innerHTML = isVisible 
-        ? "▶ Chỉ ra và nêu tác dụng của yếu tố phi ngôn ngữ" 
-        : "▼ Chỉ ra và nêu tác dụng của yếu tố phi ngôn ngữ";
-    }
-  </script>
+&lt;details&gt;
+    &lt;summary&gt;Dấu hiệu&lt;/summary&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Tự do:&lt;/strong&gt; Số chữ giữa mỗi câu khác nhau.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Lục bát:&lt;/strong&gt; Các câu có 6 và 8 chữ xen kẽ nhau.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Thơ 4,5,6,7,8 chữ:&lt;/strong&gt;
+            &lt;p&gt;Hoàn cảnh sáng tác thì nói phiên âm (ngũ, tứ, bát,... ngôn).&lt;/p&gt;
+            &lt;p&gt;Còn viết thơ hiện đại, ngôn từ mới thì nói bình thường (5,6,7,... chữ).&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Song thất lục bát:&lt;/strong&gt; 2 câu đầu 7 chữ, các câu còn lại 6 và 8 chữ xen kẽ nhau.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Thất ngôn tú tuyệt:&lt;/strong&gt; cả bài có 4 câu, mỗi câu 7 chữ.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/details&gt;</code></pre>
+</doc-codeblock></div>
 </body>
 </html>
 
