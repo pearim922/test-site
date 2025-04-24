@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798821892015">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798823675247">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -27,11 +27,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.7.0.798821892015" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.7.0.798823675247" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798821892015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.7.0.798823675247" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798821892015" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.7.0.798823675247" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -168,46 +168,64 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách có thể đóng mở</title>
-    <style>
-        details {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Toggle Thể Thơ</title>
+  <style>
+    .toggle {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .toggle-title {
+      font-weight: bold;
+      cursor: pointer;
+      padding: 5px;
+      background-color: #f0f0f0;
+      border-radius: 6px;
+    }
+    .toggle-content {
+      display: none;
+      margin-top: 5px;
+      padding-left: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Chỉ ra thể thơ và dấu hiệu nhận biết của nó</h1>
+<div class="toggle">
+  <div class="toggle-title" onclick="toggleContent(this)">Chỉ ra thể thơ và dấu hiệu nhận biết của nó</div>
+  <div class="toggle-content">
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">&lt;details&gt;
-    &lt;summary&gt;Chú ý&lt;/summary&gt;
-    &lt;p&gt;Đếm hết cả bài, tránh trường hợp cả bài 8 chữ mà câu cuối 9 chữ lại lười không đếm.&lt;/p&gt;
-&lt;/details&gt;
+<pre class="language-none"><code v-pre class="language-none">&lt;div class=&quot;toggle&quot;&gt;
+  &lt;div class=&quot;toggle-title&quot; onclick=&quot;toggleContent(this)&quot;&gt;Chú ý&lt;/div&gt;
+  &lt;div class=&quot;toggle-content&quot;&gt;
+    Đếm xem mỗi dòng có bao từ rồi ghi ra cuối câu, đừng đếm có 1-2 dòng đầu hay dòng cuối.
+  &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;details&gt;
-    &lt;summary&gt;Dấu hiệu&lt;/summary&gt;
-    &lt;ul&gt;
-        &lt;li&gt;
-            &lt;strong&gt;Tự do:&lt;/strong&gt; Số chữ giữa mỗi câu khác nhau.
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;strong&gt;Lục bát:&lt;/strong&gt; Các câu có 6 và 8 chữ xen kẽ nhau.
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;strong&gt;Thơ 4,5,6,7,8 chữ:&lt;/strong&gt;
-            &lt;p&gt;Hoàn cảnh sáng tác thì nói phiên âm (ngũ, tứ, bát,... ngôn).&lt;/p&gt;
-            &lt;p&gt;Còn viết thơ hiện đại, ngôn từ mới thì nói bình thường (5,6,7,... chữ).&lt;/p&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;strong&gt;Song thất lục bát:&lt;/strong&gt; 2 câu đầu 7 chữ, các câu còn lại 6 và 8 chữ xen kẽ nhau.
-        &lt;/li&gt;
-        &lt;li&gt;
-            &lt;strong&gt;Thất ngôn tú tuyệt:&lt;/strong&gt; cả bài có 4 câu, mỗi câu 7 chữ.
-        &lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/details&gt;</code></pre>
+&lt;div class=&quot;toggle&quot;&gt;
+  &lt;div class=&quot;toggle-title&quot; onclick=&quot;toggleContent(this)&quot;&gt;Trình bày&lt;/div&gt;
+  &lt;div class=&quot;toggle-content&quot;&gt;
+    &lt;strong&gt;Tự do&lt;/strong&gt;: Số chữ giữa mỗi câu khác nhau.&lt;br&gt;
+    &lt;strong&gt;Lục bát&lt;/strong&gt;: Các câu có 6 và 8 chữ xen kẽ nhau.&lt;br&gt;
+    &lt;strong&gt;Thơ 4,5,6,7,8 chữ&lt;/strong&gt;: Hoàn cảnh sáng tác thời cổ thì nói phiên âm (ngũ,tứ,bát,…ngôn). Còn viết thời hiện đại, ngôn từ mới thì nói bình thường (5,6,7,…chữ).&lt;br&gt;
+    &lt;strong&gt;Song thất lục bát&lt;/strong&gt;: 2 câu đầu 7 chữ, các câu còn lại 6 và 8 chữ xen kẽ nhau.&lt;br&gt;
+    &lt;strong&gt;Thất ngôn tứ tuyệt&lt;/strong&gt;: cả bài có 4 câu, mỗi câu 7 chữ.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 </doc-codeblock></div>
+  </div>
+</div>
+<script>
+  function toggleContent(element) {
+    const content = element.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  }
+</script>
 </body>
 </html>
 
