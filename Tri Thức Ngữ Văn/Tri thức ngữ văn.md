@@ -27,3 +27,6 @@ Mà bạn nói được mỗi từ *hoàn hảo* thôi sẽ bị thiếu ý.
 <details>
 <summary><strong></strong></summary>
 </details>
+
+> [!CAUTION]
+> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
