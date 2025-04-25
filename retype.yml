@@ -4,7 +4,8 @@ url: # Add your website address here
 branding:
   title: Tri thức ngữ văn
   label: v0.0
-  logo: /resources/dface.png
+  logo: resources/dface.png
+  favicon: resources/dface.ico
 links:
 - text: Repository
   link: https://github.com/pearim922/test-site
