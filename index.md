@@ -1,5 +1,5 @@
 ---
-title: Ghi chú
+title: Thông Tin
 
 ---
 
