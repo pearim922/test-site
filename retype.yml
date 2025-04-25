@@ -4,8 +4,11 @@ url: # Add your website address here
 branding:
   title: Tri thức ngữ văn
   label: v0.0
+  logo: /resources/dface.png
 links:
+- text: Repository
+  link: https://github.com/pearim922/test-site
 - text: Báo lỗi
-  link: https://bento.me/tph2809
+  link: https://www.facebook.com/hnn2809/
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  copyright: "&copy; Nhật Nguyễn đã xây web =D"
