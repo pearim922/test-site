@@ -33,7 +33,7 @@ Trực quan hóa, cụ thể hóa các thông tin quan trọng.
 ### Yếu tố phi ngôn ngữ
 Hãy nêu ra 3 gạch đầu dòng:<br>
 Thời gian cụ thể | Sự kiện, nhân vật lịch sử | Địa điểm
->  [!Caution]
+>  [!Chú ý]
 >  Nếu không nêu 3 ý trên riêng mà gộp vào sẽ bị mất điểm
 
 ### Ngôi kể
