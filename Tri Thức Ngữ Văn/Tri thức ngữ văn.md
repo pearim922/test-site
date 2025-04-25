@@ -1,3 +1,8 @@
+<style>
+body {
+  font-family: "Montserrat", sans-serif;
+}
+</style>
 ---
 title: Tri Thức Ngữ Văn
 ---
