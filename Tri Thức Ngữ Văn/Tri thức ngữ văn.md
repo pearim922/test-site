@@ -1,11 +1,11 @@
+---
+title: Tri Thức Ngữ Văn
+---
 <style>
 body {
   font-family: "Montserrat", sans-serif;
 }
 </style>
----
-title: Tri Thức Ngữ Văn
----
 ### Thể thơ và dấu hiệu nhận biết
 **Tự do**: Số chữ giữa mỗi câu khác nhau.<br>
 **Lục bát**: Các câu 6 và 8 chữ xen kẽ nhau toàn văn bản.<br>
