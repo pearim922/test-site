@@ -3,12 +3,13 @@ title: Tri Thức Ngữ Văn
 ---
 <style>
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-} </style>
+    font-family: "Montserrat", sans-serif;
+}
+</style>
 
 
 ### Thể thơ
