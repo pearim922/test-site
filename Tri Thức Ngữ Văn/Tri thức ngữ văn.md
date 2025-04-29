@@ -52,7 +52,3 @@ Tạo sự chân thật, lôi cuốn, hấp dẫn.
 Người kể giấu mặt, khách quan kể lại câu truyện.<br>
 >**Td**:<br>
 Tạo tính khách quan, bao quát. Tạo cơ sở người kể theo chân nhân vật mọi nơi.
-
-==- # Nguyeexn
-hus hello
-===
