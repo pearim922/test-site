@@ -56,12 +56,3 @@ Tạo tính khách quan, bao quát. Tạo cơ sở người kể theo chân nhâ
 ==- # Nguyeexn
 hus hello
 ===
-
-# Tri Thức Ngữ Văn
-## Tri Thức Ngữ Văn
-### Tri Thức Ngữ Văn
-#### Tri Thức Ngữ Văn
-##### Tri Thức Ngữ Văn
-###### Tri Thức Ngữ Văn
-Tri Thức Ngữ Văn
-**Tri Thức Ngữ Văn**
