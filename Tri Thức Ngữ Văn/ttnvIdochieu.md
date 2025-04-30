@@ -1,7 +1,6 @@
 ---
 title: I, Đọc Hiểu
 icon: triangle-right
-order: 0
 ---
 <style>
 body {
