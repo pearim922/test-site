@@ -1,5 +1,6 @@
 ---
 title: Tri Thức Ngữ Văn
+icon: book
 ---
 <style>
 body {
