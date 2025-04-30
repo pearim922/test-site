@@ -7,7 +7,6 @@ breadcrumb:
 branding:
   title: Tri Thức Ngữ Văn
   label: v0.0
-  favicon: dface.ico
 links:
 - text: Repository
   link: https://github.com/pearim922/test-site
