@@ -8,7 +8,7 @@ authors:
 date: 2025-04-25
 ---
 <div align="center">
-  <img src="assets/peepdance.gif" width="512" alt="hello">
+  <img src="assets/peepdance.gif" width="212" alt="hello">
 
 
-<h1 align="center">He he</h1>
+<h1 align="center">Chào mừng đến với web! Đây là dự án làm trong lúc vui vẻ của mình, có gì thiếu sót các bạn báo cho mình nha</h1>
