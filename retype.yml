@@ -1,6 +1,9 @@
 input: .
 output: .retype
-url: # Add your website address here
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+  separator: "|"
 branding:
   title: Tri thức ngữ văn
   label: v0.0
