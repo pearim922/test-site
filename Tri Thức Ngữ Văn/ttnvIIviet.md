@@ -1,7 +1,6 @@
 ---
 title: II, Viết
 icon: triangle-right
-order: -1
 ---
 <style>
 body {
