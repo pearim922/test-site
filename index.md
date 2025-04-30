@@ -1,6 +1,6 @@
 ---
 title: Thông Tin
-icon: rel-file-path
+icon: log
 authors:
   - name: Nhật Nguyễn
     link: https://www.facebook.com/hnn2809/
