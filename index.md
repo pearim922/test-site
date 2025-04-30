@@ -8,7 +8,7 @@ authors:
 date: 2025-04-25
 ---
 <div align="center">
-  <img src="resource/peepdance.gif" width="512" alt="YVL">
+  <img src="resource/peepdance.gif" width="512" alt="hello">
 
 
 <h1 align="center">He he</h1>
