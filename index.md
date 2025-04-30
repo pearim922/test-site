@@ -3,7 +3,6 @@ title: Thông Tin
 icon: log
 authors:
   - name: Nhật Nguyễn
-    link: https://www.facebook.com/hnn2809/
     avatar: assets/dface.png
 date: 2025-04-25
 ---
