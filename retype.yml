@@ -7,12 +7,6 @@ breadcrumb:
 branding:
   title: Tri Thức Ngữ Văn
   label: v0.0
-links:
-- text: Repository
-  link: https://github.com/pearim922/test-site
-  icon: mark-github
-- text: Báo lỗi
-  icon: comment-discussion
 footer:
   copyright: "&copy;=D"
 meta:
