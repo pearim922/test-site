@@ -2,17 +2,6 @@
 title: I, Đọc Hiểu
 icon: triangle-right
 ---
-<style>
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-}
-</style>
-
-
 ### Thể thơ
 **Tự do**: Số chữ giữa mỗi câu khác nhau.<br>
 **Lục bát**: Các câu 6 và 8 chữ xen kẽ nhau toàn văn bản.<br>
