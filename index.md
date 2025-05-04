@@ -9,5 +9,5 @@ order: 0
 ---
 <div align="center">
   <h3>Đây là trang web chứa thông tin hỗ trợ cho việc thi văn.</h3>
-  <img src="assets/bg" alt="This is a cat typing">
+  <img src="assets/bg.jpg" alt="This is a cat typing">
 </div>
