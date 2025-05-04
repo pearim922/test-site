@@ -1,7 +1,7 @@
 ---
 title: Lỗi sai đã mắc
 icon: vshield-x
-order: -3
+order: -2
 ---
 ==- Sai yêu cầu đề
 5-7 dòng: thừa thiếu tối đa 1 dòng.<br>
@@ -12,7 +12,7 @@ Mình viết dài lan man, <mark>vẫn ý đó, không thêm điểm được, p
 ===
 ==- Diễn đạt một cách tuyệt đối
 <details>
-  <summary>Những cách diễn đạt như</summary>
+  <summary>Những cách diễn đạt như:</summary>
   <p>Chắc chắn sẽ, tất cả chúng ta, mọi người đều,…</p>
 </details>
  Cô giáo mình đã gạch những câu mang <mark>tính tuyệt đối hóa</mark> như trên.<br>
