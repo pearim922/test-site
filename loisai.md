@@ -13,7 +13,7 @@ Mình viết dài lan man, <mark>vẫn ý đó, không thêm điểm được, p
 ==- Diễn đạt một cách tuyệt đối
 <details>
   <summary>Những cách diễn đạt như:👆</summary>
-  <p>Chắc chắn sẽ, tất cả chúng ta, mọi người đều,…</p>
+  <p><strong>Chắc chắn sẽ, tất cả chúng ta, mọi người đều</strong>,…</p>
 </details>
  Cô giáo mình đã gạch những câu mang <mark>tính tuyệt đối hóa</mark> như trên.<br>
  Và mỗi lần gạch đó tăng khả năng <mark>mất 0,25, thậm chí 0,75 với lý do là học sinh diễn đạt kém<mark>.
