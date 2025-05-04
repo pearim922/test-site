@@ -5,6 +5,7 @@ authors:
   - name: Nhật Nguyễn
     avatar: assets/dface.png
 date: 2025-04-25
+order: 0
 ---
 <div align="center">
   <img src="assets/cattyping.gif" width="212" alt="This is a cat typing">
