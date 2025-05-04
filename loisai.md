@@ -1,6 +1,6 @@
 ---
 title: Lỗi sai đã mắc
-icon: vshield-x
+icon: repo-delete
 order: -2
 ---
 ==- Sai yêu cầu đề
