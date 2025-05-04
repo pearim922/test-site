@@ -1,6 +1,6 @@
 ---
-title: Lỗi sai mình đã mắc
-icon:vshield-x
+title: Lỗi sai đã mắc
+icon: vshield-x
 order: -3
 ---
 ==- Sai yêu cầu đề
