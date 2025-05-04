@@ -12,7 +12,7 @@ Mình viết dài lan man, <mark>vẫn ý đó, không thêm điểm được, p
 ===
 ==- Diễn đạt một cách tuyệt đối
 <details>
-  <summary>Những cách diễn đạt như:</summary>
+  <summary>Những cách diễn đạt như:👆</summary>
   <p>Chắc chắn sẽ, tất cả chúng ta, mọi người đều,…</p>
 </details>
  Cô giáo mình đã gạch những câu mang <mark>tính tuyệt đối hóa</mark> như trên.<br>
