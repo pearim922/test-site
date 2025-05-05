@@ -19,5 +19,5 @@ Là những câu mang <mark>tính tuyệt đối hóa</mark> chúng có thể t�
 
 <mark class="red">Sai</mark>: Nói cả tình cảm và thái độ của tác giả trong một dòng: trân thành, sâu sắc,…<br>
 <mark class="green">Đúng</mark>: Phân ra hai gạch đầu dòng, tình cảm là gì riêng, thái độ là gì riêng.<br>
-Và cuối cùng đừng quên nhận xét tình cảm và thái độ của tác giả.
+Và cuối cùng đừng quên nhận xét.
 ===
