@@ -1,5 +1,5 @@
 ---
-title: Lỗi sai đã mắc
+title: Lỗi sai thường gặp
 icon: repo-delete
 order: -2
 ---
