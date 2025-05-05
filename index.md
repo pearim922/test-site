@@ -1,6 +1,6 @@
 ---
 title: Thông Tin
-icon: log
+icon: quote
 authors:
   - name: Nhật Nguyễn
     avatar: assets/dface.png
