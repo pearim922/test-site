@@ -1,7 +1,6 @@
 ---
 title: Diễn đạt kém
 icon: chevron-right
-order: -5
 ---
 
 === Diễn đạt một cách tuyệt đối
