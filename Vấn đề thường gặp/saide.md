@@ -1,7 +1,6 @@
 ---
 title: Sai đề
 icon: chevron-right
-order: -2
 ---
 
 === Sai yêu cầu đề
