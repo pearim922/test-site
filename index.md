@@ -1,5 +1,5 @@
 ---
-title: Thông Tin
+title: a Thông Tin
 icon: home
 authors:
   - name: Nhật Nguyễn
