@@ -1,7 +1,7 @@
 ---
 title: Tri thức
 icon: book
-order: -2
+order: 90
 ---
 ### Thể thơ
 **Tự do**: Số chữ giữa mỗi câu khác nhau.<br>
